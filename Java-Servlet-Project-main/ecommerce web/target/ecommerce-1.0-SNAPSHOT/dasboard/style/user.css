@@ -1,0 +1,28 @@
+.right_content {
+  align-items: flex-start;
+  padding: 1rem;
+}
+.new_user table {
+  border-collapse: unset;
+  text-align: left;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+.new_user table th {
+  background-color: white;
+  color: #495057;
+  border: none;
+  text-align: left !important;
+  padding-right: 200px;
+  border: none !important;
+}
+.new_user table td input {
+  text-align: left;
+  width: 300px;
+}
+button {
+  padding: 0.25rem 1rem;
+  color: white;
+  background-color: cadetblue;
+  border: none;
+}
