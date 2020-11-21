@@ -1,0 +1,79 @@
+.right {
+  background-color: #f2f2f2 !important;
+  height: 100vh;
+}
+.order_data_panel {
+  width: 98%;
+  margin: auto;
+  background-color: rebeccapurple;
+}
+.heading_inline h1 {
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+.order_data {
+  padding: 1rem;
+  font-weight: 100;
+}
+.order_data {
+  background: white;
+}
+.order_data_col_container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.order_data_col_container h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #343a40;
+}
+.order_data_col_container p,
+label {
+  font-weight: 200;
+}
+.right a {
+  color: dodgerblue;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+.order_data-col {
+  padding: 1rem;
+}
+strong {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.order_items-wrapper {
+  width: 98%;
+  margin: auto;
+  margin-top: 1rem;
+}
+.right table {
+  background-color: white;
+  border-collapse: collapse;
+}
+.right table thead th {
+  background-color: #6e6e6e;
+  color: white;
+}
+.order_all_total td {
+  font-weight: 800;
+  color: cornflowerblue;
+  font-size: 0.7rem;
+}
+.right .btn_submit {
+  margin: 1rem;
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.order_data-col .note {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+}

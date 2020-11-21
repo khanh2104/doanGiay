@@ -1,0 +1,205 @@
+.right_content {
+  align-items: flex-start;
+  width: 100%;
+}
+
+input {
+  cursor: pointer;
+}
+
+.active {
+  display: block;
+}
+
+.show_setting-info {
+  height: 20vh;
+}
+
+.shop_analyis-title {
+  width: 100% !important;
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem auto !important;
+}
+.time_unit {
+  font-weight: 100;
+}
+.card_details-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 3rem;
+  background-color: #f5f5f5;
+}
+
+.box {
+  width: 100%;
+}
+
+.box h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 1px solid #c9c9c9;
+  padding: 0.5rem;
+}
+
+.box:nth-child(even) {
+  margin: 0 1rem;
+}
+
+.box a {
+  padding: 0.5rem;
+  color: #495057;
+}
+
+.box a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 614px) {
+  .view_option {
+    margin-bottom: 2rem !important;
+  }
+
+  .show_setting-info {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .option_details > div {
+    display: inline-block;
+    margin-left: 1rem !important;
+    padding: 0.25rem !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .table_wrapper {
+    margin-top: 3rem !important;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card {
+  background-color: aquamarine;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 0.1rem;
+  box-shadow: 1px 1px 5px 0px #6c757d;
+}
+
+.bg_green {
+  background-color: #4f772d;
+}
+
+.bg_bluegray {
+  background-color: #457b9d;
+}
+
+.bg_blue {
+  background-color: #1982c4;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.color_light {
+  color: #f5f5f5;
+}
+
+.shop_activities {
+  border: 1px solid #1982c4 !important;
+}
+
+.warehouse_info {
+  border: 1px solid #4f772d !important;
+}
+
+.products_info {
+  border: 1px solid blueviolet !important;
+}
+.top_products {
+  border: 1px solid red !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .card_container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .card:nth-child(even) {
+    margin: 1rem 0rem;
+  }
+
+  .card_details-container {
+    flex-direction: column;
+  }
+
+  .box:nth-child(even) {
+    margin: 1rem 0rem !important;
+  }
+
+  .card {
+    padding: 0.5rem 1.75rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+}
+.option_container {
+  /* margin: 2rem 1rem; */
+  text-align: end;
+  margin: 2rem;
+}
+.option_container select {
+  width: 200px;
+  height: 40px;
+  border-radius: 0.2rem;
+  background-color: #495057;
+  color: white;
+}
+.option_container select option:first-child {
+  background-color: #6f7072 !important;
+  color: white;
+}
+.option_container select option {
+  background-color: white !important;
+  color: #495057;
+}
+
+option {
+  zoom: 1.3;
+}
+
+/* clll */
+.shop_activities .content {
+  display: none;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+}
