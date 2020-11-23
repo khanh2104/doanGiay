@@ -2196,8 +2196,12 @@ input[type="password"] {
   }
 }
 .footer_container{
-  background: lightgrey;
+  background: #c9c9c9;
+  color: white !important;
 
+}
+.footer_container a{
+  color: white;
 }
 .returnHome{
   margin-top: -172px;
