@@ -834,7 +834,7 @@ ul.w3layouts-box-list li {
 }
 
 .grid-img-right {
-  background: url(../images/single.jpg) no-repeat center;
+  background: url(../images/jordan1_tokyo.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2190,5 +2190,16 @@ input[type="password"] {
     width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+.footer_container{
+  background: lightgrey;
 
-/* form login */
+}
+.returnHome{
+  margin-top: -172px;
+  margin-left: 1243px
+}
