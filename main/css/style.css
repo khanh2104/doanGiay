@@ -1012,19 +1012,29 @@ h3.footer-title {
 }
 
 footer p {
-  font-size: 0.9em;
+  font-size: 15px;
+  color: white;
 }
+.footer ul li a{
+  color: white;
+}
+.sure{
+  font-size: 22px;
+  color: white;
+}
+.sub-con-fo ad-info my-4{
+  color: #3a86ff;
+}
+/*form.w3layouts-newsletter {*/
+/*  display: flex;*/
+/*  margin-bottom: 2.5em;*/
+/*}*/
 
-form.w3layouts-newsletter {
-  display: flex;
-  margin-bottom: 2.5em;
-}
-
-.bottom-w3layouts-sec-nav {
-  /* border-top: 1px solid #ddd; */
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
+/*.bottom-w3layouts-sec-nav {*/
+/*  !* border-top: 1px solid #ddd; *!*/
+/*  margin-top: 0 !important;*/
+/*  padding-top: 0 !important;*/
+/*}*/
 
 .w3layouts-newsletter input[type="email"] {
   padding: 0.6em 1em;
@@ -2196,12 +2206,10 @@ input[type="password"] {
   }
 }
 .footer_container{
+  font-family: sans-serif;
   background: #c9c9c9;
-  color: white !important;
-
-}
-.footer_container a{
   color: white;
+
 }
 .returnHome{
   margin-top: -172px;
