@@ -369,14 +369,15 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-  background: url(../images/banner.png) no-repeat center;
+  background: url(../images/duybanner.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
   background-size: cover;
   position: relative;
-  height: 30em;
+  /* height: 40em; */
+  height: 35em;
 }
 
 .main-banner.inner {
@@ -424,6 +425,7 @@ li > a:only-child:after {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  text-decoration: underline;
 }
 
 h4 {
@@ -596,6 +598,9 @@ ul.tic-info li {
   display: inline-flex;
 }
 
+.tagret {
+  color: white !important;
+}
 /*-- //features --*/
 /*-- /New-Arrivals --*/
 .product-shoe-info {
@@ -642,13 +647,17 @@ ul.stars li a span:hover {
 }
 
 span.product-new-top {
-  background: #414b52;
+  background: #535353;
   font-size: 0.8em;
+  cursor: alias;
   text-transform: uppercase;
   padding: 0.3em 1.2em;
   color: #fff;
 }
-
+.regular-price {
+  text-decoration: line-through;
+  color: #1c1d21;
+}
 /*-- //New-Arrivals --*/
 
 .brand-items a span {
@@ -834,7 +843,7 @@ ul.w3layouts-box-list li {
 }
 
 .grid-img-right {
-  background: url(../images/jordan1_tokyo.png) no-repeat center;
+  background: url(../images/single.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1012,29 +1021,19 @@ h3.footer-title {
 }
 
 footer p {
-  font-size: 15px;
-  color: white;
+  font-size: 0.9em;
 }
-.footer ul li a{
-  color: white;
-}
-.sure{
-  font-size: 22px;
-  color: white;
-}
-.sub-con-fo ad-info my-4{
-  color: #3a86ff;
-}
-/*form.w3layouts-newsletter {*/
-/*  display: flex;*/
-/*  margin-bottom: 2.5em;*/
-/*}*/
 
-/*.bottom-w3layouts-sec-nav {*/
-/*  !* border-top: 1px solid #ddd; *!*/
-/*  margin-top: 0 !important;*/
-/*  padding-top: 0 !important;*/
-/*}*/
+form.w3layouts-newsletter {
+  display: flex;
+  margin-bottom: 2.5em;
+}
+
+.bottom-w3layouts-sec-nav {
+  /* border-top: 1px solid #ddd; */
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 .w3layouts-newsletter input[type="email"] {
   padding: 0.6em 1em;
@@ -1185,13 +1184,13 @@ a.w3pvt_google {
 h4.sub-con-fo {
   font-size: 0.9em;
   letter-spacing: 1px;
-  color: #2c6ed5;
+  /* color: #2c6ed5; */
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .footer-grid_section_w3layouts li a {
-  color: #727377;
+  color: #1d2124;
   font-size: 0.8em;
   letter-spacing: 1px;
 }
@@ -1220,7 +1219,7 @@ ul.w3layouts-icons li a {
 }
 
 .contact-info a {
-  color: #777;
+  color: #1d2124;
 }
 .row.footer-top {
   height: 382px;
@@ -1430,6 +1429,13 @@ a.move-top span {
     width: 94%;
   }
 }
+footer {
+  background-color: #229434;
+  height: 90vh !important;
+}
+footer h3 {
+  color: #1c1d21 !important;
+}
 
 @media (max-width: 767px) {
   .icon-gd-info {
@@ -1637,7 +1643,8 @@ h3.footer-title.text-uppercase.text-wh.mb-lg-4.founder {
 
 #brands {
   width: 100%;
-  background: lightslategrey;
+  /* background: lightslategrey; */
+  background-color: #2d2f35;
   display: inline-flex;
 }
 
@@ -1967,7 +1974,15 @@ th {
   }
 }
 
-.fa-trash {
+.wrapper {
+  width: 100%;
+  height: 500vh;
+  overflow-y: hidden;
+  opacity: 0.5;
+  background-color: #444444;
+  position: absolute;
+  top: 0;
+  z-index: 666;
 }
 @media screen and (max-width: 780px) {
   .left_wrapper {
@@ -2110,7 +2125,7 @@ button {
   border: 1px solid transparent;
 }
 tfoot {
-  background-color: #0055b1;
+  background-color: #444444;
 }
 tfoot td {
   color: white;
@@ -2200,18 +2215,9 @@ input[type="password"] {
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1240px;
-  }
-}
-.footer_container{
-  font-family: sans-serif;
-  background: #c9c9c9;
-  color: white;
 
-}
-.returnHome{
-  margin-top: -172px;
-  margin-left: 1243px
+.size {
+  outline: none;
+  cursor: pointer;
+  opacity: 0.5;
 }
