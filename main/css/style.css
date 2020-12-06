@@ -369,7 +369,7 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-  background: url(../images/duybanner.jpg) no-repeat center;
+  background: url(../images/kbanner.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1434,7 +1434,7 @@ footer {
   height: 90vh !important;
 }
 footer h3 {
-  color: #1c1d21 !important;
+  color: white;
 }
 
 @media (max-width: 767px) {
