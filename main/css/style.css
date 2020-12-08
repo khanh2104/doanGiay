@@ -164,6 +164,10 @@ nav ul li {
 nav .menu li a:hover {
   color: #ff4c4c;
 }
+.left-side ul li:hover{
+  background:  #05c46b;
+;
+}
 
 .menu li.active a {
   color: #ff4c4c;
@@ -369,7 +373,7 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-  background: url(../images/kbanner.jpg) no-repeat center;
+  background: url(../images/duybanner.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1021,7 +1025,8 @@ h3.footer-title {
 }
 
 footer p {
-  font-size: 0.9em;
+  font-size: 18px;
+  color: white;
 }
 
 form.w3layouts-newsletter {
@@ -1182,17 +1187,21 @@ a.w3pvt_google {
 /* contact address */
 .contact-info h4,
 h4.sub-con-fo {
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  /* color: #2c6ed5; */
+  font-size: 20px;
+  color: #3d3f44;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .footer-grid_section_w3layouts li a {
-  color: #1d2124;
-  font-size: 0.8em;
-  letter-spacing: 1px;
+  color: white;
+  font-size: 18px;
+}
+.titleShop{
+  margin-right: 116px;
+  margin-left: -10px;
+  font-size: 23px;
+  text-align: center;
 }
 
 .footer-grid_section_w3layouts li a:hover {
@@ -2220,4 +2229,15 @@ input[type="password"] {
   outline: none;
   cursor: pointer;
   opacity: 0.5;
+}
+
+element.style {
+  color: white !important;
+}
+.list-unstyled w3layouts-icons ul li{
+  color: white;
+}
+a.move-top.text-right.col-md-2 {
+  margin-top: -150px;
+  margin-left: 700px;
 }

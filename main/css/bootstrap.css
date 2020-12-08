@@ -443,6 +443,13 @@ mark,
   padding-left: 0;
   list-style: none;
 }
+.w3layouts-icons ul {
+  font-size: 20px;
+  color: white !important ;
+}
+.w3layouts-icons li{
+  color: white !important;
+}
 
 .list-inline {
   padding-left: 0;
