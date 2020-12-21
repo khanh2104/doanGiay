@@ -67,8 +67,8 @@ input::-webkit-inner-spin-button {
 
 .select_group {
   margin-top: 1rem;
-  display: block;
-  flex: 5;
+  display: inline;
+  /*flex: 5;*/
   text-align: left;
   margin-left: 1rem;
 }
